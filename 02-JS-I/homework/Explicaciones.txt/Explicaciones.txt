@@ -1,0 +1,35 @@
+Variables:
+La variable se utiliza en el lenguaje Javascript con el fin de poder hacer mención a ella luego, es decir, para poder encontrarla luego.
+A la variable se la declara con el nombre var = 
+Existen otras maneras de declararlas según el objetivo que se pretenda.
+Ellas son: let; const.
+
+
+Strings:
+Es un bloque de texto escrito entre comillas.
+Si el texto está formado por números, siempre y cuando estén entre comillas, se consideran del tipo string y no del tipo número.
+
+Funciones (argumentos, "return"):
+Las funciones son claves en el lenguaje de JS ya que mediante ellas, le pediremos cosas a la computadora.
+Toda función comienza con la palabra function.
+La función se escribe así
+function nombredelafuncion () {}
+Los argumentos son lo que escribiremos entre los paréntesis. Puede haber más de un argumento.
+Return es una declaración, que nos devolverá lo que le pedimos.
+La función se detiene luego de haber ejecutado la declaración retorno.
+
+Por ejemplo:
+function nombredelafuncion (a, b) {
+	return a * b;
+}
+
+Declaraciones "if":
+If es una palabra clave que se utiliza en el control de flujo y comparación.
+Lo usaremos en las funciones siemrpe y cuando necesitemos, como la palabra lo indica, comparar una o más cosas.
+Es por ejemplo cuando quiero que la computadora me devuelva la frase "mayor de edad" cuando una persona es mayor a 18 años.
+Entonces la declaración if será la que une el control de flujo y el operador de comparación.
+
+
+Valores booleanos ("true", "false"):
+Éstos vienen de la lógica de Boole que trabajaba con números binarios.
+Por ende sólo son dos valores los que puede tomar y son true o false.
