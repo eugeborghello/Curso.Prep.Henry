@@ -1,0 +1,20 @@
+For: Es un bucle que se utiliza para que sea más fácil escribir un código para casos de tareas repetitivas.
+Está formado por una variable, una condición y un incremental de la variable. 
+A las tres partes las escribiré entre paréntesis, separados por punto y coma.
+Lo que hace el bucle for, es evaluar la expresión condicional. Siempre y cuando sea true, el código se ejecutará.
+
+
+
+OPERADORES LOGICOS: Sirven para conocer si alguna de las expresiones es verdadera o si ambas son verdaderas  o si ninguna lo es.
+Tenemos 3 operadores lógiso y ellos son:
+&& "Y" o en inglés "AND": Éste analiza ambas expresiones y devolverá true sólo cuando ambas expresiones son verdaderas.
+Ya siendo la primera de las expresiones falsa, la computadora dejará de corrrer el código y devolverá false.
+
+
+|| "O" o en inglés "OR": Éste analiza ambas expresiones y devolverá falso cuando ambas expresiones son falsas.
+Ya siendo la primera de las expresiones verdadera, la computadora dejará de corrrer el código y devolverá true.
+
+! "NO" o en inglés "NOT": Éste operador devolverá el valor booleano opuesto de lo que se le pasa, por ejemplo !0 dará true.
+Si lo usamos con el signo == posterior (es decir, !==), ya se convierte en opearador de comparación y lo que evaluará es ambas expresiones en su todo, incluido el tipo, pero con el NOT delante por ejemplo 1 !== 1 dará false. 
+
+
