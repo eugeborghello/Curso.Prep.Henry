@@ -1,0 +1,11 @@
+Prototype:
+JS esta diseñado según prototipos; es decir que todos los objetos en JS tiene referencia en otro objeto llamado prototipo.
+Para buscarlo en la consola o node, escribo el nombre que quiero buscar xx.__proto__ y consigo el prototipo de ese objeto.
+Por ejemplo [].--proto-- me dirá que es un prototipo Array.
+
+Constructors (de clases):
+El constructor es úlil para cuando muchos objetos comparten las mismas propiedades o métodos.
+Por ejemplo, todos los trabajadores de una empresa comparten nombre, apellido, edad y una función que calcula cantidad de años restantes hasta jubilarse.
+Cuando quiera crear un nuevo trabajador a partir del contructor, voy a darlo de alta con la keyword "new".
+Supongamos que al constructor lo llamemos Trabajador, entonces agregaremos uno llamandolo new Trabajador.
+Por convención, se dispuso llamar al constructor con la primera letra en mayúscula.
