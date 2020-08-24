@@ -1,0 +1,27 @@
+Objetos:
+Es una colección de propiedades.
+Cada elemento tiene propiedades
+Al objeto se lo escribe entre {}.
+
+Propiedades:
+Es una asociación entre un nombre, clave o llave y un valor (key y value).
+Las propiedades pueden ser todo tipo de datos: strings, booleanos, números e incluso funciones (se las llama métodos cuando se encuentran dentro de un objeto).
+Los arrays, son tipos de objetos en donde su propiedad o key es número según su ubicación (0, 1 , 2, etc).
+
+Métodos:
+Se denominan métodos cuando una propiedad dentro del objeto es una función.
+
+Bucle for...in:
+Sirve para iterar cada valor-clave dentro del objeto.
+Esto recorre cada objeto y finaliza cuando hayan iterado todas las claves, key o valores.
+Sse escribe:
+for + (la variable + la palabra in + el nombre del objeto)
+for (let clave in usuario)
+
+
+Notación de puntos vs notación de corchetes:
+Esta notación fue creada con el objetivo de acceder de manera más rápida al valor que tiene una propiedad dentro del objeto.
+Cómo debiera acceder a la propiedad de manera original? De manera parecida a como accedíamos en el array. Por ejemplo:
+Objeto1['nombre'] se puede hacer de manera más sencilla con el punto y quedaría Objeto1.nombre
+La limitación es que en notación de puntos traerá "literalmente" lo que escriba siempre y cuando sea una propiedad.
+Entonces cuando debamos recorrer una variable o un objeto, utilizaremos la notación de corchetes.
