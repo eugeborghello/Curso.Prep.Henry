@@ -1,0 +1,8 @@
+Arrays: Es un tipo de dato (pero no nativo, podemos decir que contiene "tipos de detaos nativos" como son los string, numbers, booleanos).
+Es una lista que contiene objetos y permite efectuar tareas de recorrido y mutación.
+Tanto la longitud como el tipo de elementos de un array son variables. 
+Es decir que un array puede contener diferentes tipos de datos (numbers, booleanos, strings) y diferente cantidad de ellos.
+Los array se escriben entre corchetes o brakets en inglés [].
+Sería una manera rápida de hacer el seguimiento de los nombres de estudiantes por ejemplo:
+nombreestudiantes = ['Victor', 'Elena', 'José', 'María']
+Es sencillo tanto movernos dentro del array, como agregar o eliminar datos contenidos en él.
