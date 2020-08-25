@@ -1,0 +1,3 @@
+Funciones callback:
+Se llama callback cuando una función es el argumento de otra función.
+Se la llama cb.
