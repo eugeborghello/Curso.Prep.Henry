@@ -1,0 +1,43 @@
+
+body background {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	display: flex;
+	align-content: : center;
+	justify-content: center;
+	
+}
+
+div {
+	text-align: center;
+	
+}
+
+
+h1 {
+	color: lightsalmon;
+}
+
+img {
+	width: 400px;
+
+}
+
+#thirdDiv {
+	width: 50%;
+	height: 600px;
+	background-color: lightsalmon;
+	padding: 50px;
+	border: 3px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+
+}
