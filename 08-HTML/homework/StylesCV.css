@@ -1,0 +1,122 @@
+
+.container {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+#foto {
+	display: flex;
+	width: 24%;
+
+}
+
+#titulo {
+	display: flex;
+	width: 76%;
+	justify-content: center;
+	background-color: grey;
+
+}
+
+.nombre {
+	display: block;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: calibri;
+
+}
+
+.descripcion  {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: lightblue;
+
+}
+
+.descripcionpersonal  {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: lightblue;
+
+}
+
+.IT {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: lightblue;
+
+}
+
+
+
+#educacion {
+	width: 50%;
+	justify-content: center;
+}
+
+#experienciaslaborales {
+	width: 50%;
+	justify-content: center;
+}
+
+#hobbies {
+	width: 50%;
+	justify-content: center;
+}
+
+#skills {
+	width: 50%;
+	justify-content: center;
+}
+
+
+.nombredescripcion {
+	display: block;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: calibri;
+    color: grey;
+
+}
+
+#estudioIT {
+	width: 100%;
+	justify-content: center;
+
+}
+
+p {
+	display: block;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    font-family: calibri;
+    color: grey
+}
+
+
+
+
+
+
